@@ -1,0 +1,65 @@
+{
+  "target_column": "track_popularity",
+  "hit_threshold": 70,
+  "n_rows": 600,
+  "n_features": 10,
+  "features": [
+    "genre",
+    "danceability",
+    "energy",
+    "acousticness",
+    "instrumentalness",
+    "valence",
+    "speechiness",
+    "loudness",
+    "tempo",
+    "duration_ms"
+  ],
+  "class_distribution": {
+    "0": 531,
+    "1": 69
+  },
+  "accuracy": 0.8916666666666667,
+  "roc_auc": 0.8652291105121295,
+  "confusion_matrix": [
+    [
+      101,
+      5
+    ],
+    [
+      8,
+      6
+    ]
+  ],
+  "classification_report": {
+    "0": {
+      "precision": 0.926605504587156,
+      "recall": 0.9528301886792453,
+      "f1-score": 0.9395348837209302,
+      "support": 106.0
+    },
+    "1": {
+      "precision": 0.5454545454545454,
+      "recall": 0.42857142857142855,
+      "f1-score": 0.48,
+      "support": 14.0
+    },
+    "accuracy": 0.8916666666666667,
+    "macro avg": {
+      "precision": 0.7360300250208507,
+      "recall": 0.6907008086253369,
+      "f1-score": 0.7097674418604651,
+      "support": 120.0
+    },
+    "weighted avg": {
+      "precision": 0.8821378926883514,
+      "recall": 0.8916666666666667,
+      "f1-score": 0.885922480620155,
+      "support": 120.0
+    }
+  },
+  "test_size": 0.2,
+  "random_state": 42,
+  "smote_used": true,
+  "note": "Metrics depend on dataset and threshold; reproduce before reporting."
+}
