@@ -1,4 +1,4 @@
-# Project 2 — Spotify Hit Predictor
+# Project  — Spotify Hit Predictor
 
 ## What it does
 A tabular ML pipeline that reads a CSV, handles missing values, encodes categorical variables, scales numeric variables, optionally applies SMOTE within the training pipeline, trains a Random Forest classifier, and saves evaluation metrics plus a model artifact. The Streamlit app uses the saved model to estimate whether a track crosses the project's popularity threshold.
